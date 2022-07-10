@@ -235,6 +235,7 @@ struct crnToneMapping (
 		)
 	),
 	
+	-- Delete operator to a specific place on the list
 	fn DelTMOperatorsOnSpot ID:1 =
 	(
 		try (
