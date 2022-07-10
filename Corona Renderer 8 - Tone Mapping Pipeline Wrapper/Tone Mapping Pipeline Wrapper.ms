@@ -42,7 +42,7 @@ struct crnToneMapping (
 			tmOPs
 		)
 		catch (
-			format ":: ❌ Error :: Corona Tone Mapping - Code CTM-1001 ::\n-- Getting all tone mapping operators and their IDs was not successful.\n%\n" (getCurrentException())
+			format ":: ❌ Error :: Corona Tone Mapping - Code CTM-1002 ::\n-- Getting all tone mapping operators and their IDs was not successful.\n%\n" (getCurrentException())
 			undefined
 		)	
 	),
@@ -61,7 +61,7 @@ struct crnToneMapping (
 			tmOPs
 		)
 		catch (
-			format ":: ❌ Error :: Corona Tone Mapping - Code CTM-1001 ::\n-- Getting all tone mapping operators ID was not successful.\n%\n" (getCurrentException())
+			format ":: ❌ Error :: Corona Tone Mapping - Code CTM-1003 ::\n-- Getting all tone mapping operators ID was not successful.\n%\n" (getCurrentException())
 			undefined
 		)
 	),
@@ -80,7 +80,7 @@ struct crnToneMapping (
 			tmOPs
 		)
 		catch (
-			format ":: ❌ Error :: Corona Tone Mapping - Code CTM-1001 ::\n-- Getting all tone mapping operators was not successful.\n%\n" (getCurrentException())
+			format ":: ❌ Error :: Corona Tone Mapping - Code CTM-1004 ::\n-- Getting all tone mapping operators was not successful.\n%\n" (getCurrentException())
 			undefined
 		)
 	),
@@ -95,7 +95,7 @@ struct crnToneMapping (
 			ID
 		)
 		catch (
-			format ":: ❌ Error :: Corona Tone Mapping - Code CTM-1001 ::\n-- Generating a unique random ID was not successful.\n%\n" (getCurrentException())
+			format ":: ❌ Error :: Corona Tone Mapping - Code CTM-1005 ::\n-- Generating a unique random ID was not successful.\n%\n" (getCurrentException())
 			undefined
 		)
 	),
@@ -115,7 +115,7 @@ struct crnToneMapping (
 				classof tmOPs[intID]
 			)
 			else (
-				format ":: ❌ Error :: Corona Tone Mapping - Code CTM-1001 ::\n-- There are no operators in the list.\n" 
+				format ":: ❌ Error :: Corona Tone Mapping - Code CTM-1006 ::\n-- There are no operators in the list.\n" 
 				undefined
 			)
 		)
@@ -140,7 +140,7 @@ struct crnToneMapping (
 				tmOPs[intID]
 			)
 			else (
-				format ":: ❌ Error :: Corona Tone Mapping - Code CTM-1001 ::\n-- There are no operators in the list.\n" 
+				format ":: ❌ Error :: Corona Tone Mapping - Code CTM-1007 ::\n-- There are no operators in the list.\n" 
 				undefined
 			)
 		)
@@ -159,7 +159,7 @@ struct crnToneMapping (
 			else true
 		)
 		catch (
-			format ":: ❌ Error :: Corona Tone Mapping - Code CTM-1001 ::\n-- Specify whether the operators' list is empty or not, was not successful.\n%\n" (getCurrentException())
+			format ":: ❌ Error :: Corona Tone Mapping - Code CTM-1008 ::\n-- Specify whether the operators' list is empty or not, was not successful.\n%\n" (getCurrentException())
 			undefined
 		)
 	),
@@ -171,7 +171,7 @@ struct crnToneMapping (
 			renderers.current.colorMap_pipeline = LtmOP
 		)
 		catch (
-				format ":: ❌ Error :: Corona Tone Mapping - Code CTM-1001 ::\n-- Deleting the tone mapping operator at the bottom of the list was not successful.\n%\n" (getCurrentException())
+				format ":: ❌ Error :: Corona Tone Mapping - Code CTM-1009 ::\n-- Deleting the tone mapping operator at the bottom of the list was not successful.\n%\n" (getCurrentException())
 				undefined
 		)
 	),
@@ -193,7 +193,7 @@ struct crnToneMapping (
 			)
 		)
 		catch (
-			format ":: ❌ Error :: Corona Tone Mapping - Code CTM-1001 ::\n-- Adding the tone mapping operator at the bottom of the list was not successful.\n%\n" (getCurrentException())
+			format ":: ❌ Error :: Corona Tone Mapping - Code CTM-1010 ::\n-- Adding the tone mapping operator at the bottom of the list was not successful.\n%\n" (getCurrentException())
 			undefined
 		)
 	),
@@ -230,7 +230,7 @@ struct crnToneMapping (
 			)
 		)
 		catch (
-			format ":: ❌ Error :: Corona Tone Mapping - Code CTM-1001 ::\n-- Adding the tone mapping operators using id was not successful.\n%\n" (getCurrentException())
+			format ":: ❌ Error :: Corona Tone Mapping - Code CTM-1011 ::\n-- Adding the tone mapping operators using id was not successful.\n%\n" (getCurrentException())
 			undefined
 		)
 	),
@@ -261,7 +261,7 @@ struct crnToneMapping (
 			)
 		)
 		catch (
-			format ":: ❌ Error :: Corona Tone Mapping - Code CTM-1001 ::\n-- Deleting the tone mapping operator using id was not successful.\n%\n" (getCurrentException())
+			format ":: ❌ Error :: Corona Tone Mapping - Code CTM-1012 ::\n-- Deleting the tone mapping operator using id was not successful.\n%\n" (getCurrentException())
 			undefined
 		)
 	)	
