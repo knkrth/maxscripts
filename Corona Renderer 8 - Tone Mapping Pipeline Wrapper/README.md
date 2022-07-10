@@ -1,5 +1,5 @@
 Hello all,
-this is a wrapper <code>(Tone Mapping Pipeline Wrapper.ms)</code> for new Corona renderer 8 tone mapping which is kind of pain to work with. so here is my maxscript codes to make it easier for users to use this new feature.
+this is a wrapper <code>(Tone Mapping Pipeline Wrapper.ms)</code> for new Corona renderer 8 tone mapping which is a pain to work with. so here is my maxscript codes to make it easier for users to use this new feature.
 <br><br>
 In my humble opinion, Corona new tone mapper could output easily as nice array of operators and it make things a whole lot easier and way more flexible for coders to use this awesome feature.
 <br><br>
@@ -12,17 +12,40 @@ list of functions
 <br>
 <pre>
 ◼ ClearAllTMOperators
+-- Delete all tone mapping operators
+
 ◼ GetAllTMOperatorsPlusIDs
+-- Get all tone mapping operators and their IDs as an array
+
 ◼ GetAllTMOperatorsIDs
+-- Get the IDs of all tone mapping operators
+
 ◼ GetAllTMOperators
+-- Get all tone mapping operators
+
 ◼ GenerateID
+-- Generate a unique random ID that does not exist in the current operators' list
+
 ◼ GetTMOperatorsClass
+-- Get operators' class using its place on tone mapping list
+
 ◼ GetTMOperators
+-- Get operators' using its place on tone mapping list
+
 ◼ IsTMEmpy
+-- Specify whether the operators' list is empty or not (true or false)
+
 ◼ DelLastTMOperators
+-- Delete last operator
+
 ◼ AddTMOperatorsLast
+-- Add operator as last one
+
 ◼ AddTMOperatorsOnSpot
+-- Add operator to a specific place on the list
+
 ◼ DelTMOperatorsOnSpot
+-- Delete operator to a specific place on the list
 </pre>
 <hr>
 here is some examples:
