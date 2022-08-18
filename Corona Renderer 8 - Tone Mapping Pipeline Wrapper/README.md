@@ -1,5 +1,5 @@
 Hello all,
-this is a wrapper <code>(Tone Mapping Pipeline Wrapper.ms)</code> for new Corona renderer 8 tone mapping which is a pain to work with. so here is my maxscript codes to make it easier for users to use this new feature.
+this is a wrapper <code>(Tone Mapping Pipeline Wrapper.ms)</code> for new Corona renderer 8 tone mapping which is a not easy to work with. so here is my maxscript codes to make it easier for users to use this new feature.
 <br><br>
 In my humble opinion, Corona new tone mapper could output easily as nice array of operators and it make things a whole lot easier and way more flexible for coders to use this awesome feature.
 <br><br>
